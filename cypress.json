@@ -1,0 +1,21 @@
+{
+    "baseUrl": "https://www.saucedemo.com/",
+    "ignoreTestFiles": "*.js",
+    "testFiles": "**/*.{feature,features}",
+    "trashAssetsBeforeRuns": false,
+    "chromeWebSecurity": false,
+    "video": true,
+    "videosFolder": "cypress/videos",
+    "screenshotsFolder": "cypress/screenshots",    
+    "reporterOptions": {
+        "overwrite": true,
+        "html": true,
+        "json": true
+    },
+    "videoCompression": 32,
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "numTestsKeptInMemory": 50,
+    "requestTimeout": 5000,
+    "responseTimeout": 30000
+}
